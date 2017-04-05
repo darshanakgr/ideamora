@@ -126,14 +126,14 @@ a:focus {
 #main-slider h1 {
     font-size: 48px;
     text-shadow: 0 3px rgba(0, 0, 0, 0.1);
-    color: #fff;
+    color: #2c3e50;
     text-align: right;
 }
 
 #main-slider h4 {
     font-size: 18px;
     text-shadow: 0 3px rgba(0, 0, 0, 0.1);
-    color: #fff;
+    color: #2c3e50;
     text-align: right;
 }
 
@@ -389,10 +389,10 @@ textarea#message {
     }
 }
 
-
 .social-roll-icons{
     height: 70px;
     text-align: center;
+    width: 250px;
 }
 
 .social-roll {
@@ -447,4 +447,84 @@ textarea#message {
 
 .linkedin-roll:hover{
     background-image: url('../images/linkedin-color.png');
+}
+
+
+@media (max-width: 1199px) {
+    .container {
+        margin: 0 auto;
+    }
+
+    .features-container{
+        zoom: 0.7;
+        -moz-transform: scale(0.7);
+    }
+
+}
+
+@media (max-width: 991px) {
+    .navbar-default .navbar-nav > li > a {
+        padding: 16px 25px;
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    #main-slider h1 {
+        font-size: 40px;
+    }
+
+    #main-slider h4 {
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    .category-img > img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .category-detail{
+        padding-top: 10px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    h2{
+        font-size: 30px;
+    }
+
+
+}
+
+@media (max-width: 479px) {
+
+}
+
+@media (max-width: 400px) {
+    h2{
+        font-size: 20px;
+    }
+
+    h2:after {
+        height: 3px;
+        width: 35px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+
 }
