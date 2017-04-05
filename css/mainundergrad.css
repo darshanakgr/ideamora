@@ -12,10 +12,6 @@ h6 {
   color: #777;
   font-weight: 300;
 }
-
-.glyphicon.glyphicon-download {
-  font-size: 50px;
-}
 a {
   color: #52b6ec;
   -webkit-transition: 300ms;
