@@ -46,6 +46,11 @@ a:focus {
   background-repeat: no-repeat;
   padding: 200px 0;
   color: #fff;
+
+}
+img {
+  width: 100%;
+  height: auto;
 }
 #main-slider .item {
   -moz-transition: opacity ease-in-out 500ms;
