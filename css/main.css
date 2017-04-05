@@ -588,17 +588,69 @@ p.idea-letter {
 }
 
 @media (max-width: 400px) {
+
+
+    .navbar-default .navbar-nav > li > a {
+        padding: 16px 25px;
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .navbar-brand {
+        margin-right: 0px;
+        width: 54%;
+        height: 68px;
+    }
+
+
+    #main-slider h1 {
+        font-size: 20px;
+    }
+
+    #main-slider h4 {
+        font-size: 6px;
+    }
+
+
+
+    p.idea-letter{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    h3,
+    h3.text-center{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 8px;
+    }
+
     h2{
         font-size: 20px;
     }
 
-    h2:after {
-        height: 3px;
-        width: 35px;
+    .category-img{
+        padding-top: 25px;
     }
 
-    p {
-        font-size: 12px;
+    .category-img > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .category-detail{
+        padding-top: 0px;
+    }
+
+    #main-slider{
+        padding-bottom: 128px;
+    }
+
+    div#school.category,
+    div#undergraduate.category{
+        height: 230px;
     }
 
 
