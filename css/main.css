@@ -116,9 +116,16 @@ a:focus {
   right: 10px;
 }
 #main-slider h1 {
-  font-size: 68px;
+  font-size: 48px;
   text-shadow: 0 3px rgba(0, 0, 0, 0.1);
   color: #fff;
+  text-align: right;
+}
+#main-slider h4 {
+  font-size: 18px;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: right;
 }
 #contact .box {
   background-color: #222;
