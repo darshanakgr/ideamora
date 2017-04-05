@@ -310,30 +310,6 @@ p.idea-letter {
     color: #52b6ec;
 }
 
-ul.social {
-    list-style: none;
-    margin: 10px 0 0;
-    padding: 0;
-}
-
-ul.social > li {
-    margin: 0 0 20px;
-}
-
-ul.social > li > a {
-    display: block;
-    font-size: 18px;
-}
-
-ul.social > li > a i {
-    margin-right: 10px;
-}
-
-textarea#message {
-    padding: 10px 15px;
-    height: 220px;
-}
-
 @keyframes scaleUp {
     0% {
         opacity: 0;
@@ -497,19 +473,118 @@ textarea#message {
     .category-detail{
         padding-top: 10px;
     }
+    #main-slider{
+        padding-bottom: 128px;
+    }
 
 }
 
 @media (max-width: 767px) {
-    h2{
-        font-size: 30px;
+    .navbar-default .navbar-nav > li > a {
+        padding: 16px 25px;
+        font-size: 14px;
+        line-height: 10px;
     }
 
+    #main-slider h1 {
+        font-size: 25px;
+    }
 
+    #main-slider h4 {
+        font-size: 8px;
+    }
+
+    h3{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 11px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .category-img{
+        padding-top: 25px;
+    }
+
+    .category-img > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .category-detail{
+        padding-top: 0px;
+    }
+
+    #main-slider{
+        padding-bottom: 128px;
+    }
+
+    div#school.category,
+    div#undergraduate.category{
+        height: 230px;
+    }
 }
 
 @media (max-width: 479px) {
+    .navbar-default .navbar-nav > li > a {
+        padding: 16px 25px;
+        font-size: 14px;
+        line-height: 10px;
+    }
 
+    #main-slider h1 {
+        font-size: 20px;
+    }
+
+    #main-slider h4 {
+        font-size: 6px;
+    }
+
+
+
+    p.idea-letter{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    h3,
+    h3.text-center{
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 8px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .category-img{
+        padding-top: 25px;
+    }
+
+    .category-img > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .category-detail{
+        padding-top: 0px;
+    }
+
+    #main-slider{
+        padding-bottom: 128px;
+    }
+
+    div#school.category,
+    div#undergraduate.category{
+        height: 230px;
+    }
 }
 
 @media (max-width: 400px) {
